@@ -38,7 +38,12 @@ a.master-btn:hover {
 
 a.master-btn-xl {
 	font-size: 18px;
-	padding: 8px 14px;
+	padding: 8px 16px;
+}
+
+a.master-btn-sm {
+	font-size: 14px;
+	padding: 4px 8px;
 }
 
 a.slave-btn {
@@ -50,12 +55,17 @@ a.slave-btn {
 
 a.slave-btn-xl {
 	font-size: 18px;
-	padding: 8px 14px;
+	padding: 8px 16px;
 }
 
-a.master-btn:hover {
+a.slave-btn:hover {
 	color: #000;
 	background-color: #FCFCFC;
 	border: dotted 2px #000;
+}
+
+a.slave-btn-sm {
+	font-size: 14px;
+	padding: 4px 8px;
 }
 
