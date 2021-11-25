@@ -19,3 +19,14 @@ a:hover {
 	color: #000;
 	border-bottom: dotted 2px #000;
 }
+
+a.master-btn {
+	padding: 6px 12px;
+	border: dotted 2px #444;
+}
+
+a.master-btn:hover {
+	color: #FCFCFC;
+	background-color: #000;
+	border: dotted 2px #FCFCFC;
+}
