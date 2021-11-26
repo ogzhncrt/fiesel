@@ -6,8 +6,45 @@ html {
 
 body {
 	background-color: #FCFCFC;
+	font-size: 16px;
 }
 
+/* Start - Typo */
+
+h1 {
+	font-size: 42px;
+	margin: 20px 0px;
+	border-bottom: solid 2px #444;
+}
+
+h2 {
+	font-size: 38px;
+	margin: 20px 0px;
+}
+
+h3 {
+	font-size: 28px;
+	margin: 20px 0px;
+}
+
+h4 {
+	font-size: 24px;
+	margin: 10px 0px;
+}
+
+h5 {
+	font-size: 20px;
+	margin: 10px 0px;
+}
+
+h6 {
+	font-size: 16px;
+	margin: 10px 0px;
+}
+
+/* End - Typo */
+
+/* Start - Anchor */
 a {
 	color: #000;
 	font-size: 16px;
@@ -27,6 +64,7 @@ a:hover {
 a.master-btn {
 	padding: 6px 12px;
 	border: solid 2px #444;
+	display: inline-block;
 }
 
 a.master-btn:hover {
@@ -50,6 +88,7 @@ a.slave-btn {
 	padding: 6px 12px;
 	border: solid 2px #FCFCFC;
 	background-color: #000;
+	display: inline-block;
 }
 
 a.slave-btn-xl {
@@ -68,6 +107,9 @@ a.slave-btn-sm {
 	padding: 4px 8px;
 }
 
+/* End - Anchor */
+
+/* Start - Divider */
 div.divider-xl {
 	margin: 80px 0px;
 }
@@ -79,4 +121,37 @@ div.divider {
 div.divider-sm {
 	margin: 20px 0px;
 }
+/* End - Divider */
 
+/* Start - Card */
+div.master-card {
+	padding: 10px 20px;
+	border: solid 2px #000;
+}
+
+div.card-body {
+	padding: 10px 0px;
+}
+
+div.master-card .card-title {
+	padding-bottom: 5px;
+	border-bottom: solid 2px #000;
+}
+
+.card-actions {
+	border-top: solid 2px #000;	
+	margin-top: 15px;
+	padding-top: 15px;
+}
+
+.card-actions a:nth-child(2) {
+	float: right;
+}
+
+div.master-card .card-title {
+
+}
+
+
+
+/* End - Card */
