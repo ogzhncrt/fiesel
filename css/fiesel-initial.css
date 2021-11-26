@@ -11,8 +11,7 @@ body {
 a {
 	color: #000;
 	font-size: 16px;
-	border-bottom: dotted 2px #444;
-	padding: 0px 2px;
+	border-bottom: dashed 2px #444;
 	text-decoration: none;
 }
 
@@ -22,18 +21,18 @@ a:visited {
 
 a:hover {
 	color: #000;
-	border-bottom: dotted 2px #000;
+	border-bottom: dashed 2px #000;
 }
 
 a.master-btn {
 	padding: 6px 12px;
-	border: dotted 2px #444;
+	border: solid 2px #444;
 }
 
 a.master-btn:hover {
 	color: #FCFCFC;
 	background-color: #000;
-	border: dotted 2px #FCFCFC;
+	border: solid 2px #FCFCFC;
 }
 
 a.master-btn-xl {
@@ -49,7 +48,7 @@ a.master-btn-sm {
 a.slave-btn {
 	color: #FCFCFC;
 	padding: 6px 12px;
-	border: dotted 2px #FCFCFC;
+	border: solid 2px #FCFCFC;
 	background-color: #000;
 }
 
@@ -61,11 +60,23 @@ a.slave-btn-xl {
 a.slave-btn:hover {
 	color: #000;
 	background-color: #FCFCFC;
-	border: dotted 2px #000;
+	border: solid 2px #000;
 }
 
 a.slave-btn-sm {
 	font-size: 14px;
 	padding: 4px 8px;
+}
+
+div.divider-xl {
+	margin: 80px 0px;
+}
+
+div.divider {
+	margin: 50px 0px;
+}
+
+div.divider-sm {
+	margin: 20px 0px;
 }
 
