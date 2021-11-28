@@ -1,3 +1,3 @@
 # Fiesel
 
-## Mini CSS Framework
+Micro CSS Boilerplate fo now.
