@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background-color: #FCFCFC;
+	background-color: #F0F0F0;
 	font-size: 16px;
 }
 
@@ -45,7 +45,7 @@ code {
 	padding: 2px 5px;
     margin: 0px 1px;
     font-size: 80%;
-    background: #F1F1F1;
+    background: #FCFCFC;
     border: 1px solid #E1E1E1;
     border-radius: 1px;
 }
@@ -79,6 +79,7 @@ a.master-btn {
 	padding: 6px 12px;
 	border: solid 2px #444;
 	display: inline-block;
+	background-color: #FFF;
 }
 
 a.master-btn:hover {
@@ -167,7 +168,10 @@ div.divider-sm {
 }
 
 .master-card {
+	background-color: #FFF;
 	border: solid 2px #000;
+	-webkit-box-shadow: 10px 10px 1px 0px #000000; 
+	box-shadow: 10px 10px 1px 0px #000000;
 }
 
 .master-card .card-title {
