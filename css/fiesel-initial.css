@@ -50,6 +50,12 @@ code {
     border-radius: 1px;
 }
 
+p {
+	font-size: 14px;
+	line-height: 120%;
+	margin-bottom: 15px;
+}
+
 /* End - Typo */
 
 /* Start - Anchor */
@@ -132,23 +138,19 @@ div.divider-sm {
 /* End - Divider */
 
 /* Start - Card */
-div.master-card {
+.card {
 	padding: 10px 20px;
-	border: solid 2px #000;
 }
 
-div.card-body {
+.card-body {
 	padding: 10px 0px;
 }
 
-div.master-card .card-title {
+.card .card-title {
 	padding-bottom: 5px;
-	border-bottom: solid 2px #000;
 }
 
 .card-actions {
-	border-top: solid 2px #000;	
-	margin-top: 15px;
 	padding-top: 15px;
 }
 
@@ -156,8 +158,29 @@ div.master-card .card-title {
 	float: right;
 }
 
-div.master-card .card-title {
+.master-card .card-actions {
+	border-top: solid 2px #000;	
+}
 
+.slave-card .card-actions {
+	border-top: solid 2px #FCFCFC;	
+}
+
+.master-card {
+	border: solid 2px #000;
+}
+
+.master-card .card-title {
+	border-bottom: solid 2px #000;
+}
+
+.slave-card .card-title {
+	border-bottom: solid 2px #FCFCFC;
+}
+
+div.slave-card {
+	background-color: #000;
+	color: #FCFCFC;
 }
 
 
