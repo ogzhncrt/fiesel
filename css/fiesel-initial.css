@@ -95,12 +95,17 @@ a.master-btn {
 	border: solid 2px #444;
 	display: inline-block;
 	background-color: #FFF;
+	-webkit-box-shadow: 4px 4px 1px 0px #000000;
+	box-shadow: 4px 4px 1px 0px #000000;
 }
 
 a.master-btn:hover {
+	/*border: 0px;*/
 	color: #FCFCFC;
 	background-color: #000;
-	border: solid 2px #FCFCFC;
+	border: solid 2px #F0F0F0;
+	-webkit-box-shadow: 4px 4px 1px 0px #F0F0F0;
+	box-shadow: 4px 4px 1px 0px #F0F0F0;
 }
 
 a.master-btn-xl {
