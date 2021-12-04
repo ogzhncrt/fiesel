@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background-color: #F0F0F0;
+	background-color: #DFDFDF;
 	font-size: 14px;
 }
 
@@ -103,9 +103,9 @@ a.master-btn:hover {
 	/*border: 0px;*/
 	color: #FCFCFC;
 	background-color: #000;
-	border: solid 2px #F0F0F0;
-	-webkit-box-shadow: 4px 4px 1px 0px #F0F0F0;
-	box-shadow: 4px 4px 1px 0px #F0F0F0;
+	border: solid 2px #DFDFDF;
+	-webkit-box-shadow: 4px 4px 1px 0px #DFDFDF;
+	box-shadow: 4px 4px 1px 0px #DFDFDF;
 }
 
 a.master-btn-xl {
@@ -119,11 +119,15 @@ a.master-btn-sm {
 }
 
 a.slave-btn {
-	color: #FCFCFC;
+	color: #DFDFDF;
 	padding: 6px 12px;
-	border: solid 2px #FCFCFC;
+	border: solid 2px #DFDFDF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
 	background-color: #000;
 	display: inline-block;
+	-webkit-box-shadow: 3px 3px 1px 0px #FFF;
+    box-shadow: 3px 3px 1px 0px #FFF;
 }
 
 a.slave-btn-xl {
@@ -133,8 +137,10 @@ a.slave-btn-xl {
 
 a.slave-btn:hover {
 	color: #000;
-	background-color: #FCFCFC;
+	background-color: #DFDFDF;
 	border: solid 2px #000;
+	-webkit-box-shadow: 5px 5px 1px 0px #000;
+    box-shadow: 5px 5px 1px 0px #000;
 }
 
 a.slave-btn-sm {
@@ -202,9 +208,11 @@ div.divider-sm {
 	border-bottom: solid 2px #FCFCFC;
 }
 
-div.slave-card {
+.slave-card {
 	background-color: #000;
 	color: #FCFCFC;
+	-webkit-box-shadow: 10px 10px 1px 0px #FFF;
+    box-shadow: 10px 10px 1px 0px #FFF;
 }
 
 
@@ -222,6 +230,8 @@ div.slave-card {
 .master-table thead tr {
 	text-align: left;
 	font-weight: bold;
+	font-size: 16px;
+
 }
 
 .master-table tr {
@@ -231,7 +241,7 @@ div.slave-card {
 	border-bottom: solid 1px #000;
 }
 
-.master-table td {
+.master-table td,th {
 	padding: 12px 15px;
 	text-align: left;
 }
